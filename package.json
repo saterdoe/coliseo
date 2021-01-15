@@ -1,0 +1,22 @@
+{
+  "name": "coliseo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+  },
+  "author": "saterdoe <saterdoe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.5",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
